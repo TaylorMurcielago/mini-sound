@@ -1,0 +1,28 @@
+/**index.wxss**/
+.container{
+position:relative;
+width:750rpx;
+height:1200rpx;
+
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio_ctl {
+  position:absolute;
+width:80%;
+bottom:15px;
+
+}
+.audio_ctl button {
+    width: 80%;
+    /* margin-top: 320rpx; */
+    margin-bottom: 50rpx;
+}
+
+.uploaded text {
+  word-break: break-all;
+}

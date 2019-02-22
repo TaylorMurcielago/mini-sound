@@ -1,0 +1,7 @@
+<!--logs.wxml-->
+<view class="container log-list">
+   <button bindtap='speechStart'>1</button>
+     <button bindtap='speechRecognition'>2</button>
+       <button bindtap='play'>3</button>
+         <button>4</button>
+</view>

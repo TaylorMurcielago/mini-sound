@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="audio_ctl">
+    <button bindtouchstart="handleRecordStart" bindtouchend="handleRecordEnd">长按吹气</button>
+    <button bindtap="handlePlayVoice" wx:if="{{upload}}">播放</button>
+    <button bindtap="handleUploadVoice" wx:if="{{upload}}">上传录音文件</button>
+     <button wx:if="{{show}}" wx:if="{{upload}}" bindtap="gotoImg">生成录音声波图</button>
+<!-- <button bindtap='chooseImg'>选择图片</button>//图片选择
+<view><image src='{{img_l}}' bindtap='preview_img'></image></view>//图片预览
+ 
+<button bindtap='up_img'>上传</button> -->
+
+    <view class="uploaded">
+      <!-- <view>小程序录音临时文件url: </view>
+      <text>{{uploaded_url}}</text> -->
+    </view>
+
+     </view>
+</view>

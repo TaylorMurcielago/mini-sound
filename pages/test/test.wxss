@@ -1,0 +1,28 @@
+.image-group {
+  display: flex;
+  white-space: nowrap;
+  margin-top: 30rpx;
+}
+.image-group image {
+  display: inline-block;
+  width: 375rpx;
+  height: 180rpx;
+  margin-right: 20rpx;
+}
+
+.scroll-view-item{
+  width: 300rpx;
+  height: 200rpx;
+}
+#green{
+  background-color: green;
+}
+#red{
+  background-color: red;
+}
+#yellow{
+  background-color: yellow;
+}
+#blue{
+  background-color: blue;
+}
